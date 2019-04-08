@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EBEBEB;
+    display: flex;
+}
+#cadastrar{
+    background-color: #F84C72;
+    width: 35%;
+    height: 100vh;
+    box-shadow: 3px 2px 2px rgb(0, 0, 0, 25%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.h1-cadastrar{
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Arial Rounded MT";
+    width: 100%;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0, 25%)
+}
+.linha{
+    background-color: white;
+    width: 40%;
+    height: 4px;   
+    margin-bottom: 8%;
+}
+input{
+    border: solid white 1px;
+    background-color: #F84C72;
+    border-radius: 9px;
+    width: 70%;
+    height: 6vh;
+    margin: 3% 0% 6% 0%;
+    padding: 2%;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+button{
+    width: 70%;
+    height: 6vh;
+    background-color: rgb(255, 255, 255, 75%);
+    border-radius: 9px;
+    color: #F84C72;
+    font-family: "Arial Rounded MT";
+    font-size: 1.5em;
+
+}
+button:hover{
+    box-shadow: 3px 2px 2px rgb(0, 0, 0, 25%);
+    cursor: pointer;
+}
