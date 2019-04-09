@@ -1,21 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WishList</title>
     <link rel="stylesheet" href="./css/desejos.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
     <div id="cadastrar">
         <h2 class="h1-cadastrar">Cadastrar um Desejo</h2>
         <div class="linha"></div>
         <div class="form">
-                <input type="text" placeholder="Informe a descrição do desejo">
-                <input type="text" placeholder="Informe a URL da imagem">
-                <button type="submit">CADASTRAR</button>
+            <input type="text" placeholder="Informe a descrição do desejo">
+            <input type="text" placeholder="Informe a URL da imagem">
+            <button type="submit">CADASTRAR</button>
+        </div>
+    </div>
+    <div id="lista">
+            <h2 class="h1-cadastrar">Lista de Desejos</h2>
+            <div class="cards">
+        <section id="team" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="linha-card"></div>
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p class="title-text">Descrição</p>
+                                            <p class="card-text">
+                                                AirPod
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+        <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    Diploma do SENAI
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/diploma.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Team member -->
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="mainflip">
+                                        <div class="frontside">
+                                            <div class="card">
+                                                <div class="card-body text-center">
+                                                    <p class="title-text">Descrição</p>
+                                                    <p class="card-text">
+                                                        Emprego
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="backside">
+                                            <div class="card">
+                                                <div class="card-body text-center mt-4">
+                                                    <p><img class=" img-fluid" src="./img/emprego.jpg" alt="AirPod"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
     </div>
 </body>
+
 </html>
