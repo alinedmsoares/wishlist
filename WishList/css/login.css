@@ -85,6 +85,5 @@ button{
 button:hover{
     cursor: pointer;
     background-image: linear-gradient( #FBB38D,#F896AD);
-
 }
 

@@ -10,10 +10,12 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-    <div id="cadastrar">
+    <div id="cadastrar" class="cadastrar">
         <h2 class="h1-cadastrar">Cadastrar um Desejo</h2>
         <div class="linha"></div>
         <div class="form">
@@ -23,31 +25,41 @@
         </div>
     </div>
     <div id="lista">
-            <h2 class="h1-cadastrar">Lista de Desejos</h2>
-            <div class="cards">
-        <section id="team" class="pb-5">
-            <div class="container">
-                <div class="row">
-                    <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                            <div class="linha-card"></div>
-                            <div class="mainflip">
-                                <div class="frontside">
-                                    <div class="card">
-                                        <div class="card-body text-center">
-                                            <p class="title-text">Descrição</p>
-                                            <p class="card-text">
-                                                AirPod
-                                            </p>
-                                            
+        <div class="topo">
+            <div class="titulo">
+        <h2 class="h2-cadastrar">Lista de Desejos</h2>
+        <div class="linha-2"></div>
+    </div>
+    <div id="sair">
+        <a href="index.html" class="sair"><i class="fas fa-sign-out-alt"></i> Sair</a>
+    </div>
+    </div>
+        <div class="cards">
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-center mt-4">
-                                            <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -55,22 +67,57 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="team" class="pb-5">
+            </section>
+            <section id="team" class="pb-5">
                 <div class="container">
                     <div class="row">
                         <!-- Team member -->
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
                                 <div class="mainflip">
                                     <div class="frontside">
                                         <div class="card">
                                             <div class="card-body text-center">
                                                 <p class="title-text">Descrição</p>
                                                 <p class="card-text">
-                                                    Diploma do SENAI
+                                                    Emprego
                                                 </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/emprego.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    Diploma
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
                                             </div>
                                         </div>
                                     </div>
@@ -88,27 +135,29 @@
                 </div>
             </section>
             <section id="team" class="pb-5">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Team member -->
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                                    <div class="mainflip">
-                                        <div class="frontside">
-                                            <div class="card">
-                                                <div class="card-body text-center">
-                                                    <p class="title-text">Descrição</p>
-                                                    <p class="card-text">
-                                                        Emprego
-                                                    </p>
-                                                </div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
                                             </div>
                                         </div>
-                                        <div class="backside">
-                                            <div class="card">
-                                                <div class="card-body text-center mt-4">
-                                                    <p><img class=" img-fluid" src="./img/emprego.jpg" alt="AirPod"></p>
-                                                </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
                                             </div>
                                         </div>
                                     </div>
@@ -116,8 +165,207 @@
                             </div>
                         </div>
                     </div>
-                </section>
                 </div>
+            </section>
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="linha-card"></div>
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="title-text">Descrição</p>
+                                                <p class="card-text">
+                                                    AirPod
+                                                </p>
+                                                <p class="data">Data</p>
+                                                <p class="data-text">09/04/2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <p><img class=" img-fluid" src="./img/airpod1.jpg" alt="AirPod"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 </body>
 

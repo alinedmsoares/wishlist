@@ -9,14 +9,17 @@ body{
 }
 #cadastrar{
     background-color: #F84C72;
-    width: 45%;
+    width: 30%;
     height: 100vh;
     box-shadow: 3px 2px 2px rgb(0, 0, 0, 25%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-     
+}
+.cadastrar{
+    position: fixed;
+
 }
 .h1-cadastrar{
     color: white;
@@ -26,11 +29,26 @@ body{
     width: 100%;
     text-shadow: 3px 2px 2px rgb(0, 0, 0, 25%)
 }
+.h2-cadastrar{
+    color: #F84C72;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Arial Rounded MT";
+    width: 100%;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0, 25%);
+    margin-top: 6%;
+}
 .linha{
     background-color: white;
     width: 40%;
     height: 4px;   
     margin-bottom: 8%;
+}
+.linha-2{
+    background-color: #F84C72;
+    width: 16%;
+    height: 4px;
+    margin-left: 42%;
 }
 input{
     border: solid white 1px;
@@ -69,18 +87,22 @@ button:hover{
 /* card */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
-    background: #EBEBEB !important;
 }
 
 section {
-    padding: 7% 2%;
-    width: 25%;
+    padding: 3% 2%;
+    width: 24%;
 }
 
 
 #team .card {
     border: none;
     background: #ffffff;
+    padding: 10%;
+    box-shadow: 3px 2px 2px rgb(0, 0, 0, 25%);
+    border-radius: 10px;
+    max-width: 300px;
+    
 }
 .img-fluid{
     width: 100%;
@@ -171,19 +193,56 @@ section {
     width: 100%;
 }
 .row{
-    width: 100%;
+    width: 14em;
 }
 #lista{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    width: 70%;
+display: flex;
+flex-direction: column;
+margin-left: 31%;
 }
 
 .title-text{
     color: #F84C72;
-    font-family: "Arial Rounded MT"
+    font-family: "Arial Rounded MT";
+    font-size: 1.5em;
 }
 .cards{
     display: flex;
     width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.data{
+    color: #F84C72;
+    font-family: "Arial Rounded MT";
+    font-size: 1.5em;
+    margin-top: 18%;
+}
+.data-text{
+    color: #aaa;
+    font-family: "Arial Rounded MT";
+    font-size: 1em;
+}
+.card-text{
+    color: #aaa;
+    font-family: "Arial Rounded MT";
+    font-size: 1em;
+}
+.sair{
+    color: #F84C72;
+    font-family: "Arial Rounded MT";
+    font-size: 1.5em;
+    margin-top: 18%; 
+    text-decoration: none;
+}
+.topo{
+    display: flex;
+
+    align-items: center;
+justify-content: space-around;
+}
+.titulo{
+    margin-left: 25%;
 }
